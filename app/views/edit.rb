@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+  <head> 
+    <meta charset="UTF-8">
+    <title>Edit Recipes</title>
+  </head> 
   <body>
     <form method='POST' action='/recipes/<%= @recipe.id %>'>
       <input id="hidden" type="hidden" name="_method" value="patch">
